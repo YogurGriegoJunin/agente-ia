@@ -82,7 +82,7 @@ def run_agent(user_input):
         print(f"Agente: {response}")
 
         if "FINALIZADO" in response:
-            print("\n✅ Tarea completada."); break
+            print("\n[OK] Tarea completamente."); break
         
         action_found = False
         for line in response.split('\n'):
@@ -105,9 +105,9 @@ def run_agent(user_input):
                 break
         
         if not action_found:
-            print("❌ Error: Sin acción o finalización válida."); break
+            print("[Error]: Sin acción o finalización válida."); break
     else:
-        print("\n🛑 Límite de pasos alcanzado.")
+        print("\n[Stop] Límite de pasos alcanzado.")
 
 if __name__ == "__main__":
     task = sys.argv[1] if len(sys.argv) > 1 else input("Tarea: ")
