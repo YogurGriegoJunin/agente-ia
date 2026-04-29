@@ -1,0 +1,385 @@
+{
+  "agenda": [
+    {
+      "addr": "Avellaneda 819",
+      "id": 1777227869585,
+      "name": "Adriana Morillo",
+      "phone": "2364658257"
+    },
+    {
+      "addr": "Alvarez rodriguez 166",
+      "id": 1777227973564,
+      "name": "Adriana Rafaelli",
+      "phone": "2364533610"
+    },
+    {
+      "addr": "Hotel Copahue",
+      "id": 1777229346874,
+      "name": "Bazzani juan Jose",
+      "phone": "2364620880"
+    },
+    {
+      "addr": "Orellanos 233 - Hospital",
+      "id": 1777229213237,
+      "name": "Claudia Traverso ( Gori )",
+      "phone": "2364373439"
+    },
+    {
+      "addr": "Bernardo de irigoyen 435",
+      "id": 1777174419913,
+      "name": "Claudio Gómez Luengo ",
+      "phone": "2364267334"
+    },
+    {
+      "addr": "España 22",
+      "id": 1777316928729,
+      "name": "Cóndor dimarco",
+      "phone": "9 236 450-7196"
+    },
+    {
+      "addr": "Narbondo 121",
+      "id": 1777174724863,
+      "name": "Gerardo Roldán",
+      "phone": "9 236 464-3519"
+    },
+    {
+      "addr": "Alsina 117",
+      "id": 1777227922327,
+      "name": "Horacio Severino",
+      "phone": "2364697760"
+    },
+    {
+      "addr": "Paso 975",
+      "id": 1777253387584,
+      "name": "José Pasteris (Silvia)",
+      "phone": "9 236 455-6361"
+    },
+    {
+      "addr": "Batilana 376",
+      "id": 1777227558555,
+      "name": "Laura Molina",
+      "phone": "2364673831"
+    },
+    {
+      "addr": "Dorrego 444",
+      "id": 1777174497287,
+      "name": "Lucila corti",
+      "phone": "2364574802"
+    },
+    {
+      "addr": "Saavedra 280",
+      "id": 1777229280188,
+      "name": "Marcelo Storani",
+      "phone": "2364501293"
+    },
+    {
+      "addr": "Pringles 876",
+      "id": 1777229410857,
+      "name": "Marianela Burgos Ratto",
+      "phone": "2364626135"
+    },
+    {
+      "addr": "Cabrera 1542 casa 6",
+      "id": 1777227619513,
+      "name": "Mariela Singh",
+      "phone": "2364583859"
+    },
+    {
+      "addr": "Ituzaingo 425",
+      "id": 1777227673110,
+      "name": "Marta Sarmiento",
+      "phone": "2364716095"
+    },
+    {
+      "addr": "Cichero 165",
+      "id": 1777227761607,
+      "name": "Miguel Angel Schiavoni",
+      "phone": "5491169551023"
+    },
+    {
+      "addr": "Aristobulo del valle 40",
+      "id": 1777229481695,
+      "name": "Norma Zauzich",
+      "phone": "2364541082"
+    },
+    {
+      "addr": "España 55",
+      "id": 1777313395812,
+      "name": "Paola pesarini",
+      "phone": "9 341 340-1017"
+    },
+    {
+      "addr": "Gandini 285",
+      "id": 1777174588321,
+      "name": "Patricia mirarchi",
+      "phone": "2364676888"
+    },
+    {
+      "addr": "Carlos tejedor 32",
+      "id": 1777229542573,
+      "name": "Plana Ruben Dante ",
+      "phone": "2364561606"
+    },
+    {
+      "addr": "Firpo 221",
+      "id": 1777227814388,
+      "name": "Sara Maffia",
+      "phone": "2364604173"
+    },
+    {
+      "addr": "Alem 303",
+      "id": 1777304460846,
+      "name": "Teresa perata",
+      "phone": "9 236 455-1166"
+    }
+  ],
+  "catalog": [
+    {
+      "id": 1777174305161,
+      "name": "Promo dos potes con envases incluidos",
+      "price": 16000
+    },
+    {
+      "id": 1777174321744,
+      "name": "Promo dos potes entregando los envases",
+      "price": 14000
+    },
+    {
+      "id": 1777174337104,
+      "name": "Promo un pote con envase incluido",
+      "price": 10000
+    },
+    {
+      "id": 1777317018878,
+      "name": "Promo tres frascos",
+      "price": 24000
+    },
+    {
+      "id": 1777221071008,
+      "name": "prueba",
+      "price": 100
+    }
+  ],
+  "orders": [
+    {
+      "addr": "Gandini 285",
+      "date": "2026-04-26",
+      "id": 1777218387353,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "Patricia mirarchi",
+      "phone": "2364676888",
+      "status": "pending",
+      "total": 14000
+    },
+    {
+      "addr": "Bernardo de irigoyen 435",
+      "date": "2026-04-26",
+      "id": 1777218635610,
+      "items": [
+        {
+          "name": "Promo dos potes con envases incluidos",
+          "qty": 4,
+          "price": 16000
+        }
+      ],
+      "name": "Claudio Gómez Luengo ",
+      "phone": "2364267334",
+      "status": "pending",
+      "total": 64000
+    },
+    {
+      "addr": "Bernardo de irigoyen 435",
+      "date": "2026-04-28",
+      "id": 1777347797313,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "Claudio Gómez Luengo ",
+      "phone": "2364267334",
+      "status": "pending",
+      "total": 14000
+    },
+    {
+      "addr": "Dorrego 444",
+      "date": "2026-05-04",
+      "id": 1777324542421,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 2
+        }
+      ],
+      "name": "Lucila corti",
+      "phone": "2364574802",
+      "status": "pending",
+      "total": 28000
+    },
+    {
+      "addr": "Gandini 285",
+      "date": "2026-05-04",
+      "id": 1777343262531,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "Patricia mirarchi",
+      "phone": "2364676888",
+      "status": "pending",
+      "total": 14000
+    },
+    {
+      "addr": "Bernardo de irigoyen 435",
+      "date": "2026-04-26",
+      "id": 1777218241507,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "qty": 1,
+          "price": 14000
+        }
+      ],
+      "name": "Claudio Gómez Luengo ",
+      "phone": "2364267334",
+      "status": "completed",
+      "total": 14000,
+      "payment": "efectivo"
+    },
+    {
+      "addr": "Gandini 285",
+      "date": "2026-04-26",
+      "id": 1777174807865,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "qty": 1,
+          "sub": 14000
+        }
+      ],
+      "name": "Patricia mirarchi",
+      "phone": "2364676888",
+      "status": "completed",
+      "total": 14000,
+      "payment": "efectivo"
+    },
+    {
+      "addr": "Dorrego 444",
+      "date": "2026-04-27",
+      "id": 1777174774007,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "qty": 2,
+          "sub": 28000
+        }
+      ],
+      "name": "Lucila corti",
+      "payment": "efectivo",
+      "phone": "2364574802",
+      "status": "completed",
+      "total": 28000
+    },
+    {
+      "addr": "Gandini 285",
+      "date": "2026-04-27",
+      "id": 1777227387234,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "Patricia mirarchi",
+      "payment": "efectivo",
+      "phone": "2364676888",
+      "status": "completed",
+      "total": 14000
+    },
+    {
+      "addr": "Paso 975",
+      "date": "2026-04-27",
+      "id": 1777253423848,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "José Pasteris (Silvia)",
+      "payment": "efectivo",
+      "phone": "9 236 455-6361",
+      "status": "completed",
+      "total": 14000
+    },
+    {
+      "addr": "Alem 303",
+      "date": "2026-04-27",
+      "id": 1777304487156,
+      "items": [
+        {
+          "name": "Promo dos potes entregando los envases",
+          "price": 14000,
+          "qty": 1
+        }
+      ],
+      "name": "Teresa perata",
+      "payment": "efectivo",
+      "phone": "9 236 455-1166",
+      "status": "completed",
+      "total": 14000
+    },
+    {
+      "addr": "España 55",
+      "date": "2026-04-27",
+      "id": 1777313435653,
+      "items": [
+        {
+          "name": "Promo dos potes con envases incluidos",
+          "price": 16000,
+          "qty": 1
+        }
+      ],
+      "name": "Paola pesarini",
+      "payment": "efectivo",
+      "phone": "9 341 340-1017",
+      "status": "completed",
+      "total": 16000
+    },
+    {
+      "addr": "España 22",
+      "date": "2026-04-27",
+      "id": 1777317062071,
+      "items": [
+        {
+          "name": "Promo tres frascos",
+          "price": 24000,
+          "qty": 1
+        }
+      ],
+      "name": "Cóndor dimarco",
+      "payment": "transferencia",
+      "phone": "9 236 450-7196",
+      "status": "completed",
+      "total": 24000
+    }
+  ],
+  "keys": {
+    "adm": "Claudito1990",
+    "usr": "Reparto"
+  }
+}
